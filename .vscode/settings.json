@@ -1,0 +1,18 @@
+{
+  "cSpell.enabled": true,
+  "cSpell.language": "en,ru",
+  "cSpell.ignorePaths": [
+    "**/node_modules/**",
+    "**/**/package-lock.json",
+    ".git",
+  ],
+  "cSpell.ignoreRegExpList": [
+    // ignore comments:
+    "^ \\* (.*)$",
+    "^// (.*)$"
+  ],
+  "cSpell.words": [
+    "bepaid",
+    "Erip"
+  ]
+}
