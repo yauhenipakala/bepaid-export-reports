@@ -1,0 +1,24 @@
+{
+  "name": "bepaid-export-reports",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --inspect src/index.js",
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yauhenipakala/bepaid-export-reports.git"
+  },
+  "dependencies": {
+    "axios": "^1.13.6",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}

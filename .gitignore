@@ -1,0 +1,10 @@
+
+# macos
+.DS_Store
+
+# node
+node_modules/
+
+# app
+.env
+.env.*
